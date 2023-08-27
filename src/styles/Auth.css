@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;  
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;  
+  background-image: url("../assets/fondo1.jpg");  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  align-items: center;  
+  background-color: #DAFFFB;
+  width: 30%;
+  height: 450px;
+  /* border-radius: 15px; */
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.login input {
+  width: 80%;
+  margin-bottom: 2%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  /* border-radius: 25px; */
+  border: none;
+  margin-top: 10%;
+}
+
+.sub-button {
+  width: 80%;
+  margin-bottom: 2%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  /* border-radius: 25px; */
+  border: none;
+  font-weight: bold;
+  background-color: #001C30;
+  color: white;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.username{
+  margin-top: 5%;
+  font-weight: 100;
+}
+
+.welcome{
+  font-weight: 100;
+}

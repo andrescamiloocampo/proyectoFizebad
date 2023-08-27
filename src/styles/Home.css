@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    border-bottom: solid 1px gainsboro;    
+}
+
+.logoF{
+    width: 80px;
+}
+
+.subLogoF{
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: lighter;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-section{
+    text-decoration: none;    
+    background-color: #001C30;
+    padding: 1%;
+    margin-right: 1%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.link1{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;    
+    justify-content: space-evenly;
+    height: 5vh;
+    margin-top: 1%;
+}
+
+nav input{
+    border-radius: 15px;
+    border: solid 1px gainsboro;
+    width: 20%;
+    padding-left: 1%;    
+}
+
+.button-nav{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 10%;    
+    justify-content: space-around;
+}
+
+.button-icon{
+    font-size: 25px;
+}
