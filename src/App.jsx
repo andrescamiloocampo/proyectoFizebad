@@ -2,18 +2,17 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/Home';
 import { Auth } from './components/Auth'
-import { useNavigate } from 'react-router-dom';
+import { Reservation } from './components/Reservation';
 
-function App() {
-  return (
-    <div className='App'>      
-      <Router>
-        <Routes>
-          <Route path='/home' element={<Home/>} />
-          <Route path='/auth' element={<Auth/>} />
+function App() {  
+  return (      
+    <Router>
+      <Home/>
+        <Routes>                                                  
+          <Route path='/auth' element={<Auth/>} />          
+          <Route path='/reservation' element={<Reservation/>}/>
         </Routes>
-      </Router>      
-    </div>
+    </Router>              
   )
 }
 

@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.reservaciones-principal{    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.reservaciones-lista{
+    width: 50%;    
+    overflow-y: scroll;    
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.form-container{    
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.reservation-form{
+    display: flex;
+    flex-direction: column;    
+    -webkit-box-shadow: 3px 4px 5px -1px rgba(140, 133, 140, 1);
+    -moz-box-shadow: 3px 4px 5px -1px rgba(140, 133, 140, 1);
+    box-shadow: 3px 4px 5px -1px rgba(140, 133, 140, 1);
+    border: solid 1px gainsboro;
+    margin-top: 5%;
+    width: 50%;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.reservation-form h2{
+    margin-top: 5%;
+    font-weight: normal;
+}
+
+.reservation-form input{
+    width: 80%;
+    padding: 2%;
+}
+
+.reservation-form button{
+    width: 100%;
+    padding: 3%;
+    border: none;
+    background-color: #001C30;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reservation-form select{
+    width: 80%;
+    border: none;
+    cursor: pointer;    
+}
+
+.no-res{    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25vh; 
+    color: gainsboro;   
+}
