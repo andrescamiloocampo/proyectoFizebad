@@ -33,7 +33,7 @@ export const Home = () => {
           <AiOutlineSearch className="button-icon"/>
           <p>Tennis</p>
         </div>
-        <input type="text" placeholder="Buscas algo?"/>
+        <input className="search" type="text" placeholder="Buscas algo?"/>
       </nav>                  
     </>
   )
