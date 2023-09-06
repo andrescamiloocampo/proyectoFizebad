@@ -8,29 +8,27 @@ import vestimenta from '../assets/vestimenta.jpg'
 
 export const Tennis = () => {
   useEffect(() => {
-
     const handleNavClick = (event) => {
-      event.preventDefault()
-
+      event.preventDefault();
       const targetId = event.target.getAttribute('href').substring(1);
-      const targetElement = document.getElementById(targetId)
+      const targetElement = document.getElementById(targetId);
 
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' })
+        targetElement.scrollIntoView({ behavior: 'smooth' });
       }
-  };
+    };
 
-  const navLinks = document.querySelectorAll('.nav a')
-  navLinks.forEach((link) => {
-    link.addEventListener('click', handleNavClick)
-  })
-
-  return () => {
-    navLinks.forEach((link) => {  
-      link.removeEventListener('click', handleNavClick) 
+    const navLinks = document.querySelectorAll('#elementos a');
+    navLinks.forEach((link) => {
+      link.addEventListener('click', handleNavClick);
     });
-  };
-  }, [])
+
+    return () => {  
+      navLinks.forEach((link) => {
+        link.removeEventListener('click', handleNavClick);
+      });
+    };
+  }, []);
 
   return (
     <div className='Tennis'>
