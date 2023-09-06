@@ -25,10 +25,10 @@ export const Home = () => {
           <AiOutlineCalendar className="button-icon"/>
           <p>Agenda</p>
         </Link>
-        <div className="button-nav">
+        <Link to="/novedades" className="button-nav">
           <AiOutlineClockCircle className="button-icon"/>
-          <p>Eventos</p>
-        </div>
+          <p>Novedades</p>
+        </Link>
         <div className="button-nav">
           <AiOutlineSearch className="button-icon"/>
           <p>Tennis</p>
